@@ -6,6 +6,7 @@
 //  Copyright © 2017年 Satoko Saita. All rights reserved.
 //
 
+//二重インクルードの防止
 #ifndef paramt_h
 #define paramt_h
 //     face
