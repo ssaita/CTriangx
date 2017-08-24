@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB690FB01F4E55BD00B621E6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BB690FAF1F4E55BD00B621E6 /* main.c */; };
+		BB690FB81F4E56BE00B621E6 /* paramt.c in Sources */ = {isa = PBXBuildFile; fileRef = BB690FB61F4E56BD00B621E6 /* paramt.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BB690FAC1F4E55BD00B621E6 /* CTriangx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTriangx; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB690FAF1F4E55BD00B621E6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BB690FB61F4E56BD00B621E6 /* paramt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = paramt.c; sourceTree = "<group>"; };
+		BB690FB71F4E56BE00B621E6 /* paramt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paramt.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BB690FAF1F4E55BD00B621E6 /* main.c */,
+				BB690FB61F4E56BD00B621E6 /* paramt.c */,
+				BB690FB71F4E56BE00B621E6 /* paramt.h */,
 			);
 			path = CTriangx;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB690FB81F4E56BE00B621E6 /* paramt.c in Sources */,
 				BB690FB01F4E55BD00B621E6 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +243,7 @@
 				BB690FB51F4E55BD00B621E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
